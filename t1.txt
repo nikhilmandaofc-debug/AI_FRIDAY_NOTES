@@ -1,0 +1,59 @@
+verify requirements.txtpip install -r requirements.txt
+
+check pylint extension
+
+
+create venv
+
+python3 -m venv .venv
+
+On Mac / Linux
+
+source .venv/bin/activate
+
+🔵 On Windows
+
+.venv\Scripts\activate
+
+
+
+which python
+
+unalias python
+
+python -m pip install -r requirements.txt
+
+Cmd + Shift + P
+Python: Select Interpreter
+.venv/bin/python
+
+
+mkdir project_name
+cd project_name
+python3 -m venv .venv
+source .venv/bin/activate
+pip install <packages>
+pip freeze > requirements.txt
+
+python -c "import fastapi; print(fastapi.__file__)”
+
+Cmd + P
+Paste full path
+
+
+npm create vite@latest frontend
+cd frontend
+npm install
+
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/icons-material
+npm install axios
+npm install react-router-dom
+npm install recharts
+
+npm run dev
+
+npm install
+npm install @mui/material @mui/icons-material @emotion/react @emotion/styled
+npm install axios react-router-dom recharts framer-motion
+npm run dev
